@@ -32,6 +32,9 @@ img {
   border-radius: 20px;
   overflow: hidden;
 }
+.weather-icon{
+  font-size: 700%;
+}
 .sidebar {
   width: 40%;
   min-width: 250px;
@@ -39,7 +42,7 @@ img {
   background: rgba(255, 255, 255, 0.815);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #fff;
 }
 
@@ -125,8 +128,8 @@ img {
   
 }
 .divider {
-  width: 100%;
-  height: 1px;
+  width: 70%;
+  height: 3px;
   background: #e9ecef;
   margin: 20px 0;
 }
@@ -176,7 +179,13 @@ img {
   text-transform: capitalize;
 }
 .main nav .options button.active {
-  color: var(--primary-color);
+  color: #d1cfcf;
+}
+.location-text{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
 }
 
 .main nav .units button {
@@ -237,7 +246,7 @@ img {
 }
 
 .card2 {
-  width: 200px;
+  width: 250px;
   height: 150px;
   border-radius: 20px;
   color: white;
@@ -279,4 +288,17 @@ img {
 
 .center-custom{
     align-self: center;
+}
+
+.center-custom{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.location-text{
+  font-size: xx-large;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
 }
